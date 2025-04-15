@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+ .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  .banner {
+    background: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFubmVyfGVufDB8fDB8fHww') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .about-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .about-section h2 {
+    margin-bottom: 20px;
+    color: #444;
+  }
+
+  .about-section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .about-section button {
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .about-section button:hover {
+    background: #005fa3;
+  }
+  @media (max-width: 600px) {
+    .banner h1 {
+      font-size: 2rem;
+    }
+
+    .about-section {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+
+    .nav-link {
+      font-size: 0.95rem;
+      padding: 8px 10px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .nav-link {
+      font-size: 0.9rem;
+      padding: 6px 8px;
+    }
+  } 
